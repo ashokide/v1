@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/calc_css.css">
+    <script href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="../js/calc_script.js"></script>
+</head>
+<body>
+    <marquee>Site is under construction</marquee>
+<div class="container-flex">
+    <h1>Calculator</h1>
+<div class="calculator">
+<table>
+    <tr>
+        <td colspan="4"><input id="display" type="text" disabled></td>
+    </tr>
+    <tr>
+        <td><input class="button" type="button" value="C" onclick="clr()"></td>
+        <td><input class="button" type="button" value="&#8592" onclick="bckspace()"></td>
+        <td><input class="button" type="button" value="%" onclick="opr('%')"></td>
+        <td><input class="button" type="button" value="/" onclick="opr('/')"></td>
+    </tr>
+    <tr>
+        <td><input class="button" type="button" value="7" onclick="insrt(value)"></td>
+        <td><input class="button" type="button" value="8" onclick="insrt(value)"></td>
+        <td><input class="button" type="button" value="9" onclick="insrt(value)"></td>
+        <td><input class="button" type="button" value="X" onclick="opr('*')"></td>
+    </tr>
+    <tr>
+        <td><input class="button" type="button" value="4" onclick="insrt(value)"></td>
+        <td><input class="button" type="button" value="5" onclick="insrt(value)"></td>
+        <td><input class="button" type="button" value="6" onclick="insrt(value)"></td>
+        <td><input class="button" type="button" value="-" onclick="opr('-')"></td>
+    </tr>
+    <tr>
+        <td><input class="button" type="button" value="1" onclick="insrt(value)"></td>
+        <td><input class="button" type="button" value="2" onclick="insrt(value)" ></td>
+        <td><input class="button" type="button" value="3" onclick="insrt(value)"></td>
+        <td><input class="button" type="button" value="+" onclick="opr('+')"></td>
+    </tr>
+    <tr>
+        <td><input class="button" type="button" value="&#8730" onclick="sroot()"></td>
+        <td><input class="button" type="button" value="." onclick="insrt(value)"></td>
+        <td><input class="button" type="button" value="0" onclick="insrt(value)"></td>
+        <td><input class="button" type="button" value="=" onclick="equl()"></td>
+    </tr>
+</table>
+</div>
+    <footer> &#9617 &#169 Ashok Desire &#9617</footer>
+    </div>
+</body>
+</html>
