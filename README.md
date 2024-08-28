@@ -9,3 +9,4 @@
 | Password      | https://ashokide.github.io/web-practice/password/      |
 | Resume        | https://ashokide.github.io/web-practice/resume/        |
 | Dropdown      | https://ashokide.github.io/web-practice/dropdown/      |
+| Covid19       | https://ashokide.github.io/web-practice/covid19/       |
