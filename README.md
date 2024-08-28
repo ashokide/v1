@@ -3,3 +3,4 @@
 1. Calculator - https://ashokide.github.io/web-practice/calculator/
 2. Flames - https://ashokide.github.io/web-practice/flames/
 3. PUBG - https://ashokide.github.io/web-practice/pubg/
+4. Password - https://ashokide.github.io/web-practice/password/
