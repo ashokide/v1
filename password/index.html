@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div id="app">
+    <div class="myappcontent">
+      <div id="heading">
+        <h4>Password Generator</h4>
+      </div>
+      <div id="pass-length">
+        <h5>Password Length</h5>
+        <input type="number" min="0" max="16" value="0" id="pass-input" />
+      </div>
+      <div id="char">
+        <div>
+          <h5>
+            Password Characters
+          </h5>
+        </div>
+        <div>
+          <label for="upper"><input type="checkbox" id="upper"> Uppercase</label>
+        </div>
+        <div>
+          <label for="lower"><input type="checkbox" id="lower"> Lowercase</label>
+        </div>
+        <div>
+          <label for="num"><input type="checkbox" id="num"> Numbers</label>
+        </div>
+        <div>
+          <label for="special"><input type="checkbox" id="special"> Special Characters</label>
+        </div>
+
+      </div>
+      <div id="pass-button">
+        <button id="gen-btn">Generate Password</button>
+      </div>
+      <div id="password"></div>
+      <footer>
+        <p>Made with ❤️ by Ashok</p>
+      </footer>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+
+</html>
