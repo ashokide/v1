@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="content">
+            <div id="data">
+                <h1 style="padding: 20px; text-decoration: underline;font-size: 35px;">Covid Status</h1>
+                <div class="inputdiv">
+                    <div id="state">
+                        <select id="selectBox0">
+                            <option value="">State</option>
+                        </select>
+                        <button onclick="getDistricts()" id="myButton1">Load Districts</button>
+                    </div>
+                    <div id="name0">
+                        <select id="selectBox">
+                            <option value="">District</option>
+                        </select>
+                        <button onclick="submitData()" id="myButton">Get Data</button>
+                    </div>
+                </div>
+
+                <div id="name1" style="text-align: left; padding-left: 30px;">
+                    <h2>State :- <span id="stateId"></span></h2> <h2>District :- <span id="district"></span></h2>
+                </div>
+
+                <div id="name2">
+                    <h2>Active Cases</h2>
+                    <h2 id="active"></h2>
+                </div>
+
+                <div id="name3">
+                    <h2>Confirmed Cases</h2>
+                    <h2 id="confirm"></h2>
+                </div>
+
+                <div id="name4">
+                    <h2>Deceased Cases</h2>
+                    <h2 id="deceased"></h2>
+                </div>
+
+                <footer style="position: relative;bottom: 5px; width: 100%;">
+                    <h2 style="text-align: center;padding: 10px;color:black">Made with ❤️</h2>
+                </footer>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
